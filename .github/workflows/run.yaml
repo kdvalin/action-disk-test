@@ -22,4 +22,4 @@ jobs:
           echo "Free space:"
           df -h
       - name: SHow the thing
-        run: echo ${{ GITHUB_HEAD_REF }}
+        run: echo $GITHUB_HEAD_REF
